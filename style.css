@@ -1,16 +1,36 @@
+*{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+}
 .bg{
     z-index: -5;
     background-color: #F6EADA;
     height: 400px;
-    min-height: 400px;
+
 }
 .bg-kopi{
     position: absolute;
-    width: 650px;
-    height: 400px;
-    top: -160px;
+    width: 500px;
+    height: 350px;
+    top: -60px;
+    left: 5px;
+    transform: rotate( 2deg);
 }
 .container {
     position: relative;
     z-index: 99%;
+}
+.bg-kotak{
+    background-color: #F9D9AA;
+    height: 300px;
+    margin-top: -260px;
+    margin-left: 63px;
+    margin-right: 60px;
+    border-radius: 65px;
+}
+@media (max-width: 767px){
+    .bg-kotak{
+        display: none;
+    }
 }
